@@ -1,0 +1,34 @@
+div.logo {
+    width: 100%;
+    margin: auto;
+}
+
+div.logo img {
+    display: inline-block;
+}
+
+div.logo h1 {
+    display: inline-block;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    color: coral;
+    text-align: center;
+    font-size: 3em;
+}
+
+div.img-container {
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.img-container img {
+    height: 10em;
+    width: 20em;
+}
