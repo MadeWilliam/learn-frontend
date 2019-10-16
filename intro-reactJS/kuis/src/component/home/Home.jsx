@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class Home extends Component {
     render() {
@@ -78,69 +78,6 @@ class Home extends Component {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="footer">
-                    <div className="footer-row">
-                        <div className="socmed-wrapper">
-                            <ul>
-                                <li>
-                                    <img src={require("../../images/facebook-logo.png")} alt="" /><a href="#"></a>
-                                    <p>facebook</p>
-                                </li>
-                                <li>
-                                    <img src={require("../../images/twitter-logo.png")} alt="" /><a href="#"></a>
-                                    <p>twitter</p>
-                                </li>
-                                <li>
-                                    <img src={require("../../images/instagram-logo.png")} alt="" /><a href="#"></a>
-                                    <p>instagram</p>
-                                </li>
-                                <li>
-                                    <img src={require("../../images/phone-logo.png")} alt="" /><a href="#"></a>
-                                    <p>call center 147</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="email-form">
-                            <form action="">
-                                <label for="email">Berlangganan newsletter sekarang</label>
-                                <input id="email" type="email" placeholder="Email Anda" />
-                                <input type="submit" value="SEND" />
-                            </form>
-                        </div>
-                    </div>
-                    <div className="footer-link">
-                        <div className="link-item link-1">
-                            <img src={require("../../images/IndiHomeTokped-(Web)Home-Page-8468x400-(2)_D.jpg")} alt="" />
-                        </div>
-                        <div className="link-item link-2">
-                            <ul>
-                                <li>Kenali IndiHome</li>
-                                <li><a href="">Apa itu IndiHome?</a></li>
-                                <li><a href="">Aplikasi myIndiHome</a></li>
-                                <li><a href="">Triple Play</a></li>
-                                <li><a href="">Dual Play</a></li>
-                                <li><a href="">Single Play</a></li>
-                                <li><a href="">Add-on</a></li>
-                            </ul>
-                        </div>
-                        <div className="link-item link-3">
-                            <ul>
-                                <li>IndiHome</li>
-                                <li><a href="">Syarat & Ketentuan</a></li>
-                                <li><a href="">Announcements</a></li>
-                                <li><a href="">Tutorials</a></li>
-                            </ul>
-                        </div>
-                        <div className="link-item link-4">
-                            <ul>
-                                <li>
-                                    <img src={require("../../images/bitmap.png")} alt="" />
-                                </li>
-                                <li>Copyright 2019 PT Telekomunikasi Indonesia (Persero) Tbk All Right Reserved.</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
