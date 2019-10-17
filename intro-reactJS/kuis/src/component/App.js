@@ -5,6 +5,7 @@ import Login from './login/Login.jsx';
 import Register from './register/Register.jsx';
 import Article from './article/Article.jsx';
 import Contact from './contact/Contact.jsx';
+import News from './news/News.jsx';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
                                     <li><Link to="/login">Login</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="/article">Article</Link></li>
+                                    <li><Link to="/news">News</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -36,6 +38,7 @@ class App extends Component {
                         <Route path="/article" component={Article}/>
                         <Route path="/contact" component={Contact}/>
                         <Route path="/register" component={Register}/>
+                        <Route path="/news" component={News}/>
                     </Fragment>
                     <div className="footer">
                         <div className="footer-wrapper">
