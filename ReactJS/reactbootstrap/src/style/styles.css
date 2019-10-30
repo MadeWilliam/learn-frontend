@@ -1,0 +1,35 @@
+.warna {
+    background-color: red;
+}
+
+.logo {
+    width: 200px;
+}
+
+.header {
+    background-color: red;
+    height: 70px;
+}
+
+.toggler {
+    background-color: transparent;
+}
+
+.test {
+    background-color: red;
+    margin-top: 20px;
+}
+
+.slider {
+    background-color: rgb(186,3,2);
+    height: 400px;
+    padding-top: 40px;
+  }
+  
+.slider img {
+  margin-bottom: 20px;
+}
+
+.danger{
+    background-color: rgb(186,3,2) !important;
+}
