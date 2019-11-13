@@ -15,7 +15,10 @@ class BusinessList extends Component {
         return (
             <div className="BusinessList">
                 {this.props.businesses.map(business => {
-                   return <Business business={business} />;
+                    console.log(this.props);
+                    return (
+                        <Business business={business} />
+                        );
                 })}
             </div>
         );

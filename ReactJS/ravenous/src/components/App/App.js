@@ -23,6 +23,7 @@ for (let index = 0; index < 6; index++) {
 
 class App extends Component {
     render() {
+        console.log(this.props);
         return (
             <div class="App">
                 <h1>ravenous</h1>
