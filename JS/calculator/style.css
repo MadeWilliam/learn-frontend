@@ -31,7 +31,7 @@ h1 {
   width: 100%;
 }
 
-.calculator_keys button {
+.calculator__keys button {
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -42,5 +42,5 @@ h1 {
 .last-item {
   grid-column-start: 1;
   grid-column-end: 5;
-  background-color: coral;
+  background-color: coral !important;
 }
