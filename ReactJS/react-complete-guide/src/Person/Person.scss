@@ -1,0 +1,17 @@
+.Person {
+    background-color: aqua;
+    &__container {
+        width: 60%;
+        margin: auto;
+        border: 1px solid #eee;
+        box-shadow: 0 2px 3px #ccc;
+        padding: 16px;
+        text-align: center;
+    }
+    &__firstParagraph {
+        color: red;
+    }
+    &__secondParagraph {
+        color: green;
+    }
+}
